@@ -1,5 +1,5 @@
 goods = []
-while input('Добавить товар?') == 'да':   
+while input('Добавить товар?') == 'да':
     number = int(input("Введите номер товара: "))
     features = {}
     feature_key = input("Введите название товара: ")
@@ -15,5 +15,5 @@ for good in goods:
         if feature_key in analitics:
             analitics[feature_key].append(feature_value)
         else:
-         analitics[feature_key] = [feature_value]
+            analitics[feature_key] = [feature_value]
 print(analitics)
